@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mooli&family=Quicksand:wght@300;400;500;&family=Roboto+Slab:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+
+*{/*configuração no geral*/
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ed1d24;
+   
+}
+h1{/*titulo*/
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    font-weight:500;
+    color:#ed1d24;
+    text-shadow: 
+    2px 0px 0 #000,
+    -0px 0px 0 #000,
+    -0px 0px 0 #000,
+    5px -2px 0 #000;/** borda**/
+}
+body{/*fundo*/
+  background-image: url('../image/MicrosoftTeams-image.png');
+  background-size: cover;
+  text-align: center;
+  background: linear-gradient(to bottom, rgb(139, 139, 204, #fff));
+  width: 100%;
+}
+
+  #fotoPersonagem{
+    width: 350px;
+    border-radius: 16px;
+    border: 3px solid black;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+ 
+  #nome {
+    color: #ed1d24;
+    text-transform: capitalize;
+    margin-top: 15%;
+    padding: 0;
+    font-size: 25px;
+    border-radius: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 40%;
+
+
+  }
+
+    
+
+  .form {
+    position: absolute;
+    width: 60%;
+    top: 18%;
+    left: 15%;
+    margin-left: 5%;
+    margin-top: 10px
+    
+  }
+ 
+  .button {
+    position: absolute;
+    left: 52%;
+    transform: translate(-57%, 0);
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 5%;
+    
+  }
+ 
+  .button {
+    width: 24%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+  }
+ 
+  .button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+  }
+  
+ 

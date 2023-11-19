@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon/homem de ferro.png">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Marveldex</title>
+</head>
+
+<body>
+    <h1>Marveldex</h1>
+
+    <form class="form">
+    <input type="search" id="personagem" placeholder="Name">
+    </form>
+
+    <button class="button btn-procurar" type="button" onclick="buscaPersonagem(event)">
+        Search 🕷
+    </button>
+
+    <br>
+    <label>Name:</label>
+    <input type="text" id="nome" readonly />
+
+    <h3>ID:</h3> <p id="idPersonagem"></p>
+
+    <label>Photo:</label>
+    <br>
+    <img id="fotoPersonagem" alt="Character Photo">
+
+
+    <h3>Comics:</h3>
+    <ul id="quadrinhos"></ul>
+
+    <script src="js/marveldex.js"></script>
+</body>
+
+</html>
